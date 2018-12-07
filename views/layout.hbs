@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Material Design HTML Template</title>
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    {{{body}}}
-  </body>
+    <!-- load Google fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CPlayfair+Display:400,400i,700%7CRoboto+Condensed:400,700" rel="stylesheet">
+    <!-- Css -->
+    <link id="crypto-stylesheet" rel="stylesheet" href="/stylesheets/style.css">
+    <!-- page specific CSS -->
+
+</head>
+<body class="mdc-typography mdc-theme--background crypro-theme-gradient">
+{{{body}}}
+
+
+<!-- initialise material components js -->
+<script src="javascripts/material-components-web.min.js"></script>
+<script>mdc.autoInit()</script>
+<!-- initialise marquee js -->
+<script src="javascripts/marquee3k.js"></script>
+<script>Marquee3k.init()</script>
+<!-- layout js -->
+<script data-pace-options='{ "ajax": false, "restartOnRequestAfter": false }' src="assets/js/pace.min.js"></script>
+<script src="javascripts/apexcharts.min.js"></script>
+
+</body>
 </html>
+
