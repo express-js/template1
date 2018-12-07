@@ -1,0 +1,5 @@
+.idea/*
+*~
+.env
+publicToMigrate/*
+node_modules/*
