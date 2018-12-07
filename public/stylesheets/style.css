@@ -26,7 +26,7 @@
 [2. Cryptum Skin Classes]
 ------------------------------------------------------------------*/
 .crypro-theme-gradient {
-  background-image: linear-gradient(134deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.3) 100%); }
+  background-color: #0c2d0c !important; }
   [dir=rtl] .crypro-theme-gradient {
     background-image: linear-gradient(-134deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.3) 100%); }
 
@@ -15641,7 +15641,7 @@ tbody.crypto-transactions-list__separator {
   -webkit-box-shadow: inset -24px 0 26px 0 rgba(0, 0, 0, 0.05);
   box-shadow: inset -24px 0 26px 0 rgba(0, 0, 0, 0.05);
   height: 100%;
-  background: #424951; }
+  background: #1e4218; }
   [dir="rtl"] .crypto-navigation, .crypto-navigation[dir="rtl"] {
     -webkit-box-shadow: inset 24px 0 26px 0 rgba(0, 0, 0, 0.05);
     box-shadow: inset 24px 0 26px 0 rgba(0, 0, 0, 0.05); }
@@ -16321,7 +16321,7 @@ a {
   -webkit-transition: all .3s;
   transition: all .3s; }
   .crypto-border-list__item--active, .crypto-border-list__item:hover {
-    background: #3c4752;
+    background: #44633e;
     -webkit-box-shadow: 0px 8px 10px -5px rgba(49, 58, 67, 0.2), 0px 16px 24px 2px rgba(49, 58, 67, 0.14), 0px 6px 30px 5px rgba(49, 58, 67, 0.12);
     box-shadow: 0px 8px 10px -5px rgba(49, 58, 67, 0.2), 0px 16px 24px 2px rgba(49, 58, 67, 0.14), 0px 6px 30px 5px rgba(49, 58, 67, 0.12); }
   .crypto-border-list__item--dense {
